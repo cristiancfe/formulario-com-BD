@@ -45,6 +45,12 @@ button{
     font-weight: bold;
     justify-items:center;
     align-self: center;
+    background-color: green;
+    color: white;
+}
+
+button:hover{
+    background-color: rgba(43, 114, 10, 0.694);
 }
 label{
     font-weight: bold;
