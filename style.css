@@ -1,0 +1,47 @@
+body{
+    background-color:blueviolet;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color:aquamarine;
+    display: flex;
+    flex-flow:column wrap;
+    padding: 20px;
+    border-radius: 30px;
+}
+input{
+    width:90% ;
+    height: 25px;
+    border-radius: 40px;
+    background-color:aliceblue;
+    margin: 5px;
+}  
+::placeholder{
+    text-align: center;
+} 
+.mensagem{
+    text-align: center;
+    margin-top: 2px;
+    font: size 12pt;
+    font-weight: bold;
+} 
+textarea{
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+button{
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 60%;
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+    justify-items:center;
+    align-self: center;
+
+}
