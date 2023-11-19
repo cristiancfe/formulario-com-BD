@@ -11,11 +11,11 @@
 <body>
     <form action="">
         <label for="nome">Nome: </label>
-        <input type="text" name="nome" placeholder="digite seu nome">
-        <label for="senha">Email: </label>
-        <input type="text" name="email" placeholder="digite seu email">
+        <input type="text" name="nome" placeholder="digite seu nome" required >
+        <label for="email">Email: </label>
+        <input type="email" name="email" placeholder="exemplo@provedor.com" required >
         <label for="mensagem" class="mensagem">Deixe sua Mensagem: </label>
-        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem aqui.."></textarea>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem aqui.." required ></textarea>
         <button type="submit">Enviar</button>
 
     </form>
